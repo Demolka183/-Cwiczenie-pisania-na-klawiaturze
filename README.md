@@ -17,10 +17,10 @@ Projekt TypingPractice to aplikacja do ćwiczenia pisania na klawiaturze. Użytk
 
 1. Lista i krótki opis zaimplementowanych w projekcie funkcjonalności
 
-    1.Importy
+    1 Importy
         Importuje niezbędne klasy z bibliotek Swing, AWT, IO, NIO, Util i Streams do stworzenia GUI i operacji na plikach.
 
-    2. Deklaracje klas i zmiennych
+    2  Deklaracje klas i zmiennych
         -TypingPractice dziedziczy po JFrame.
         -Prywatne zmienne:
             -List<String> sentences: przechowuje listę zdań do ćwiczenia.
@@ -31,31 +31,31 @@ Projekt TypingPractice to aplikacja do ćwiczenia pisania na klawiaturze. Użytk
             -long startTime: czas rozpoczęcia pisania.
             -boolean hasStartedTyping: flaga oznaczająca rozpoczęcie pisania.
 
-    3. Konstruktor TypingPractice
+    3  Konstruktor TypingPractice
         Inicjuje obiekt TypingPractice, ładuje zdania z pliku i ustawia interfejs użytkownika.
 
-    4. Metoda loadSentences
+    4  Metoda loadSentences
         Wczytuje zdania z pliku tekstowego do listy sentences. W przypadku błędu wyświetla komunikat i zamyka aplikację.
 
-    5. Metoda setupUI
+    5  Metoda setupUI
         Ustawia tytuł okna, domyślne operacje zamknięcia, rozmiar i układ.
         Inicjalizuje i dodaje komponenty GUI (etykietę, pole tekstowe, obszar wyjściowy, przycisk startowy).
         Dodaje nasłuchiwacza klawiatury do pola tekstowego.
 
-    6. Metoda startNewTry
+    6  Metoda startNewTry
         Rozpoczyna nową próbę: losuje nowe zdanie, resetuje pole tekstowe i obszar wyjściowy, ustawia fokus na pole tekstowe, resetuje flagi i czas.
 
-    7. Metoda confirmText
+    7  Metoda confirmText
         Oblicza czas zakończenia, pobiera wpisany tekst, sprawdza błędy, oblicza procentową poprawność i czas wpisywania.
         Wyświetla wyniki i pyta użytkownika o ponowną próbę.
 
-    8. Metoda checkErrors
+    8  Metoda checkErrors
         Sprawdza błędy w wpisanym tekście, porównując go z oryginałem i zwraca liczbę błędów.
 
-    9. Metoda showErrors
+    9  Metoda showErrors
         Wyświetla błędy w obszarze wyjściowym, używając różnych stylów dla poprawnych i błędnych znaków.
 
-    10. Metoda main
+    10  Metoda main
         Uruchamia aplikację w wątku Swing, tworząc nową instancję TypingPractice.
 
 
