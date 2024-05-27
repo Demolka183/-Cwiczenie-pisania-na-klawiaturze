@@ -62,40 +62,41 @@ Projekt TypingPractice to aplikacja do ćwiczenia pisania na klawiaturze. Użytk
 
 
 1. Instrukcja obsługi aplikacji TypingPractice
-     Wymagania wstępne
+
+   1 Wymagania wstępne
 
       Zainstalowana Java Development Kit (JDK) wersja 8 lub nowsza.
       Plik tekstowy sentences.txt zawierający zdania do przepisania, umieszczony w tym samym katalogu co plik wykonywalny aplikacji.
 
-  1. Jak uruchomić aplikację
+      2 Jak uruchomić aplikację
 
       Pobierz kod źródłowy z repozytorium i rozpakuj go do osobnego folderu:
    
-  3. Kompilacja i uruchomienie aplikacji:
+      3 Kompilacja i uruchomienie aplikacji:
 
       Otwórz terminal/wiersz poleceń i przejdź do katalogu, w którym znajduje się plik TypingPractice.java.
       Skorzystaj z poniższych poleceń, aby skompilować i uruchomić aplikację:
           javac TypingPractice.java
           java TypingPractice
    
-  5. Obsługa aplikacji
+   Obsługa aplikacji
 
-     1. Uruchomienie programu:
+     1 Uruchomienie programu:
           Po uruchomieniu aplikacji pojawi się okno z komunikatem "Kliknij 'Start' aby rozpocząć".
           Upewnij się, że w tym samym katalogu co aplikacja znajduje się plik sentences.txt zawierający zdania do przepisania.
 
-      2. Rozpoczęcie ćwiczenia:
+     2 Rozpoczęcie ćwiczenia:
           Kliknij przycisk Start znajdujący się po prawej stronie okna.
           Pojawi się nowe zdanie do przepisania, a pole tekstowe zostanie odblokowane.
 
-      3. Wpisywanie tekstu:
+     3 Wpisywanie tekstu:
           Zacznij przepisywać zdanie w polu tekstowym. Czas będzie mierzony od momentu rozpoczęcia pisania.
           Gdy skończysz, naciśnij klawisz Enter.
 
-      4. Sprawdzenie wyników:
+     4 Sprawdzenie wyników:
           Po naciśnięciu klawisza Enter aplikacja automatycznie sprawdzi poprawność wpisanego tekstu.
           Wynik, w tym procentowa poprawność i czas potrzebny na przepisanie zdania, zostanie wyświetlony w oknie dialogowym.
           Błędy zostaną podkreślone na czerwono w dolnym polu tekstowym.
 
-      5. Ponowna próba:
+     5 Ponowna próba:
         Po wyświetleniu wyników aplikacja zapyta, czy chcesz spróbować ponownie. Kliknij Yes, aby rozpocząć nową próbę, lub No, aby zakończyć.
